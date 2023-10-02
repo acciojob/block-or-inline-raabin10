@@ -1,0 +1,22 @@
+.container {
+    margin: 10px;
+}
+
+button[data-ns-test="block-inline-button"],
+input[data-ns-test="block-inline-input"] {
+    display: inline;
+}
+
+div[data-ns-test="block-inline-div"],
+p[data-ns-test="block-inline-p"],
+h1[data-ns-test="block-inline-h1"] {
+    display: block;
+}
+
+span[data-ns-test="block-inline-span"],
+cite[data-ns-test="block-inline-cite"],
+code[data-ns-test="block-inline-code"],
+sup[data-ns-test="block-inline-sup"],
+sub[data-ns-test="block-inline-sub"] {
+    display: inline;
+}
